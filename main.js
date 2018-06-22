@@ -25,7 +25,7 @@ document.getElementById("countButton").onclick = function() {
         document.getElementById("lettersDiv").appendChild(span);
      }
 
-     words = typedText.split(/\s/);
+     words = typedText.split(" ");
 
      wordCounts = {};
 
